@@ -24,31 +24,3 @@ dependencies {
     implementation 'com.android.support:support-annotations:27.1.1'
     implementation 'com.android.support:design:27.1.1'
 }
-
-ext {
-    bintrayRepo = 'SlideToAcceptLayout'
-    bintrayName = 'slidetoacceptlayout'     // library module name
-
-    publishedGroupId = 'com.rupinderjeet.slidetoacceptlayout'
-    libraryName = 'SlideToAcceptLayout'
-    artifact = 'slidetoacceptlayout'        // library module name
-
-    libraryDescription = 'A SlideToAcceptLayout as in Uber Driver\'s app to accept a ride.'
-
-    siteUrl = 'https://github.com/rupinderjeet/Slide-To-Accept-Layout-Sample'
-    gitUrl = 'https://github.com/rupinderjeet/Slide-To-Accept-Layout-Sample.git'
-    githubRepository= 'rupinderjeet/Slide-To-Accept-Layout-Sample'
-
-    libraryVersion = '1.0'
-
-    developerId = 'rupinderjeet'
-    developerName = 'Rupinderjeet Singh Hans'
-    developerEmail = 'rupinderjeet47@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
-apply from: 'https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle'
