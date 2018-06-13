@@ -8,10 +8,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.rupinderjeet.uberslidetoacceptlayoutsample.SlideToAcceptLayout
+    <com.rupinderjeet.slidetoacceptlayout.SlideToAcceptLayout
         android:id="@+id/slide_to_accept_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:text="Accept"/>
+        app:text="Collected"
+        app:subtitle="1 / 3 items"/>
 
 </LinearLayout>

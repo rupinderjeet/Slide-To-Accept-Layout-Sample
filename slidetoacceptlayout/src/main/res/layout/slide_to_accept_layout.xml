@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/sta_reject_image_view"
+        android:layout_width="@dimen/sta_reject_image_width"
+        android:layout_height="@dimen/sta_reject_image_height"
+        android:contentDescription="@string/cd_reject_button"
+        android:padding="@dimen/sta_reject_image_padding"
+        android:src="@drawable/slide_layout_reject_state" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SeekBar
+            android:id="@+id/sta_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:paddingEnd="@dimen/sta_seekbar_padding_right"
+            android:paddingLeft="@dimen/sta_seekbar_padding_left"
+            android:paddingRight="@dimen/sta_seekbar_padding_right"
+            android:paddingStart="@dimen/sta_seekbar_padding_left"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar_track_default"
+            android:splitTrack="false"
+            android:thumb="@drawable/seekbar_thumb_default"
+            android:thumbOffset="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sta_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sta_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sta_subtitle_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sta_subtitle_text_size"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</merge>

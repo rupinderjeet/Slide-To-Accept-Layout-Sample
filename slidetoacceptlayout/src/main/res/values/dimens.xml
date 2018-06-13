@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="sta_layout_height">56dp</dimen>
+    <dimen name="sta_layout_padding_left">10dp</dimen>
+    <dimen name="sta_layout_padding_right">10dp</dimen>
+
+    <dimen name="sta_reject_image_width">56dp</dimen>
+    <dimen name="sta_reject_image_height">56dp</dimen>
+    <dimen name="sta_reject_image_padding">10dp</dimen>
+
+    <dimen name="sta_seekbar_height">40dp</dimen>
+    <dimen name="sta_seekbar_padding_left">10dp</dimen>
+    <dimen name="sta_seekbar_padding_right">10dp</dimen>
+
+    <dimen name="sta_title_text_size">16sp</dimen>
+    <dimen name="sta_subtitle_text_size">8sp</dimen>
+
+</resources>
